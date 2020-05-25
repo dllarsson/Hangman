@@ -1,6 +1,13 @@
 .App {
   text-align: center;
-  background-image: url("/src/images/bg.jpg");
+  background-image: url("images/bg.jpg");
+  background-size: 100%;
+  width: 100vh;
+  height: 100vh;
+}
+
+#gallow{
+  border: solid 15px white;
 }
 
 
