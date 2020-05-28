@@ -3,11 +3,31 @@
   background-image: url("images/bg.jpg");
   background-size: 100%;
   width: 100vh;
-  height: 100vh;
+  height: 200vh;
+  font-family: "Coming Soon";
 }
 
 #gallow{
   border: solid 15px white;
 }
-
-
+#wordContainer{
+  display: flex;
+  justify-content: center;
+}
+.word{
+  font-size: 40px;
+  padding: 10px;
+}
+.letterButton{
+  border: none;
+  border-radius: 20%;
+  background-color:  #ffc107;
+  box-shadow: 0px 10px #ff9800;
+  height: 65px;
+  width: 65px;
+  margin: 5px;
+  margin-top: 10px;
+}
+.letterButton:hover{
+  background-color: #ffd453;
+}
