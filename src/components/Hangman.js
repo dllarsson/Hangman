@@ -21,7 +21,7 @@ const Hangman = () => {
                 className="letterButton"
                 key={letter} 
                 buttonText={letter}
-                isDisabled={isDisabled.filter(item => item === letter)}
+                isDisabled={isDisabled.includes(letter)}
             />
         )
     })
