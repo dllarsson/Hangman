@@ -4,7 +4,11 @@
     display: flex;
     flex-wrap:  wrap;
     margin: 50px;
+    justify-content: center;
+    width: 70%;
+    padding-left: 10%
 }
+
 
 body {
     text-align: center;
@@ -18,14 +22,8 @@ body {
   #gallow{
     border: solid 15px white;
   }
-  #wordContainer{
-    display: flex;
-    justify-content: center;
-  }
-  .word{
-    font-size: 40px;
-    padding: 10px;
-  }
+
+
   .letterButton{
     border: none;
     border-radius: 20%;
@@ -49,9 +47,7 @@ body {
     margin: 5px;
     margin-top: 10px;
   }
-  #wordContainer{
-      display: flex;
-  }
+
   .letter{
       margin-right: 20px;
       font-size: 40px;
